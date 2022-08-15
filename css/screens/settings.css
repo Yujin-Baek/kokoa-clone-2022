@@ -41,8 +41,8 @@
 
 .settings__setting .badge--sm {
   position: absolute;
-  left: 45px;
-  top: 4px;
+  right: -28px;
+  top: 5px;
 }
 
 .settings__setting .badge--sm span {
