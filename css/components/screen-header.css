@@ -1,0 +1,39 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px var(--horizontal-space);
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+}
+
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.screen-header .small-badge {
+  left: 20px;
+  top: -2px;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
+}
