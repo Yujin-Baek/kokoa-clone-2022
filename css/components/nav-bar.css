@@ -37,7 +37,7 @@
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 
-.nav__btn:last-child .small-badge {
+.nav__btn:last-child .badge--xs {
   left: 30px;
 }
 

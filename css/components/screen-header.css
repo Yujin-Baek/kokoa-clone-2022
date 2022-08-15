@@ -20,7 +20,7 @@
   position: relative;
 }
 
-.screen-header .small-badge {
+.screen-header .badge--xs {
   left: 20px;
   top: -2px;
 }

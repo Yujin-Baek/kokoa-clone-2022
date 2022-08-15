@@ -1,7 +1,27 @@
-.badge {
+.badge--xs {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
   background-color: tomato;
-  width: 30px;
-  height: 30px;
+  position: absolute;
+}
+
+.badge--sm {
+  background-color: tomato;
+  width: 17px;
+  height: 17px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.badge--lg {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
   border-radius: 15px;
   display: flex;
   justify-content: center;

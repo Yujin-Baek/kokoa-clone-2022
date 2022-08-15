@@ -37,3 +37,78 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+
+.wallet-screen {
+  width: 100%;
+  background-color: var(--yellow);
+  font-weight: 600;
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.wallet-header__column {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-screen .fa-chevron-right {
+  color: var(--grey3);
+}
+
+.wallet-header__title {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.wallet-header__subtitle {
+  margin-left: 5px;
+}
+
+.wallet-notice {
+  background-color: ivory;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0px 15px;
+  border-radius: 10px;
+}
+
+.wallet-kakaopay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+}
+
+.wallet-kakopay__title {
+  font-size: 18px;
+}
+
+.wallet-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px 25px 20px;
+}
+
+.wallet-options__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-options__column:first-child .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0px 17px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wallet-options__column:last-child i {
+  margin-right: 5px;
+}

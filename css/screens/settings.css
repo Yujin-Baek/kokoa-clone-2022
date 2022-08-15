@@ -1,10 +1,26 @@
 .settings__setting {
   padding: 20px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.settings__setting:nth-child(3),
+.settings__setting:nth-child(12) {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--grey1);
+}
+
+.settings__setting:nth-child(4),
+.settings__setting:nth-child(13) {
+  padding-top: 30px;
+}
+
+.settings__setting:last-child {
+  margin-bottom: 85px;
 }
 
 .settings__setting i {
@@ -15,4 +31,20 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting:nth-child(9) .settings__setting-column:first-child span,
+.settings__setting:nth-child(10) .settings__setting-column:first-child span,
+.settings__setting:nth-child(12) .settings__setting-column:first-child span {
+  position: relative;
+}
+
+.settings__setting .badge--sm {
+  position: absolute;
+  left: 45px;
+  top: 4px;
+}
+
+.settings__setting .badge--sm span {
+  font-size: 3px;
 }

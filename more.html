@@ -30,19 +30,69 @@
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
         </span>
         <span>
+          <i class="fa-solid fa-qrcode fa-lg"></i>
+        </span>
+        <span>
           <i class="fa-solid fa-music fa-lg"></i>
         </span>
         <span>
           <a href="settings.html">
-            <div class="small-badge"></div>
+            <div class="badge--xs"></div>
             <i class="fa-solid fa-gear fa-lg"></i>
           </a>
         </span>
       </div>
     </header>
 
+    <div class="wallet-screen">
+      <div class="wallet-header">
+        <div class="wallet-header__column">
+          <h2 class="wallet-header__title">지갑</h2>
+          <i class="fa-solid fa-chevron-right fa-sm"></i>
+        </div>
+        <div class="wallet-header__column">
+          <i class="fa-solid fa-shield"></i>
+          <span class="wallet-header__subtitle">인증서</span>
+        </div>
+      </div>
+
+      <div class="wallet-notice">
+        <div class="wallet-notice__column">
+          <i class="fa-solid fa-shield"></i>
+          <span class="wallet-notice__text"
+            >인증서 계좌인증 필수 적용 안내</span
+          >
+        </div>
+        <div class="wallet-notice__column">
+          <i class="fa-solid fa-chevron-right fa-sm"></i>
+        </div>
+      </div>
+
+      <div class="wallet-kakaopay">
+        <div class="wallet-kakaopay__column">
+          <i class="fa-solid fa-comment"></i>
+          <span class="wallet-kakopay__title">pay</span>
+        </div>
+        <div class="wallet-kakaopay__column">10,000원</div>
+      </div>
+
+      <div class="wallet-options">
+        <div class="wallet-options__column">
+          <span>송금</span>
+          <div class="divider"></div>
+          <span>결제</span>
+          <div class="divider"></div>
+          <span>자산</span>
+        </div>
+        <div class="wallet-options__column">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>구매내역</span>
+        </div>
+      </div>
+    </div>
+
     <main class="main-screen more-screen">
-      <div class="user-component">
+      <!-- <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://search.pstatic.net/common?type=b&size=144&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202207%2F20220718192557717.jpg"
@@ -59,7 +109,8 @@
         <div class="user-component__column">
           <i class="fa-regular fa-message fa-2x"></i>
         </div>
-      </div>
+      </div> -->
+
       <div class="icon-row">
         <div class="icon-row__icon">
           <i class="fa-regular fa-calendar"></i>
@@ -106,7 +157,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge--lg">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
@@ -117,7 +168,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <div class="nav__notification small-badge"></div>
+            <div class="nav__notification badge--xs"></div>
             <i class="fa-solid fa-ellipsis fa-2x"></i>
           </a>
         </li>
